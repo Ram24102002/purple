@@ -353,7 +353,7 @@ marquee
     }
     .cards
 {
-    margin: 5px 5px 5px 5px;
+    margin: 2px;
     height: 100px;
     width: 110px;
     font-size: 1.4rem;
