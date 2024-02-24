@@ -24,6 +24,10 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap" rel="stylesheet">
      
 <!-- fontawsm -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -51,7 +55,7 @@
             <div class="collapse navbar-collapse" id="collapsibleNavId">
                 <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">SKILLS</a>
+                        <a class="nav-link" href="#technical">SKILLS</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">PROJECTS</a>
@@ -70,9 +74,11 @@
                 
             </div>
             <!-- search -->
-            <form class="form-inline my-2 my-lg-0" style="display: inline-flex;">
-                <input class="in-bar form-control border-success me-2" type="search" placeholder="Ask Me" aria-label="search">
+            <form class="feedback-form my-2 my-lg-0"  action="https://api.web3forms.com/submit" method="POST"  style="display: inline-flex;">
+            <input type="hidden" name="access_key" value="a0d2d77e-4066-4be9-a363-e9c612a7864a">
+                <input class="in-bar form-control border-success me-2" type="text" name="Question" placeholder="Ask Me" aria-label="search" required>
             </form>
+            
         </div>
     </nav>
         
@@ -91,9 +97,9 @@
     <section class="brand-name ms-auto">
         <h1 class="name">Ramachandran</h1>
         <h2 class="developer">DEVELOPER</h2>
-        <h6 class="intro"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, recusandae reprehenderit. Vitae officiis nobis quas, quaerat eligendi incidunt aliquam nostrum fugiat at</p></h6>
+        <h6 class="intro"><p>As a recent graduate in Computer Applications, I am eager to kickstart my career as a Developer. Possessing a solid understanding of Java SQL and Web Technology fundamentals acquired through coursework and academic projects. I am enthusiastic about contributing my skills to a dynamic development team. Seeking an entry-level position to gain practical experience, enhance my programming abilities, and actively contribute to innovative projects.</p></h6>
     </section>
-    <marquee behavior="" direction="" style="opacity: 0.05; position: absolute; display: block; margin-top: 180px;">HELLO WORLD</marquee>
+    <marquee behavior="" direction="" style="opacity: 0.03; position: absolute; display: block; margin-top: 180px;">HELLO WORLD</marquee>
     
     
 </section>
@@ -116,25 +122,25 @@
 <section class="container bg-dark sk-head-cont">
     <div class="sk-head">
         <div class="h1-skill">
-            <p class="technical">Technical</p>&nbsp;<p class="skill">SKILL</p>
+            <p class="technical" id="technical">Technical</p>&nbsp;<p class="skill">SKILL</p>
         </div>
     </div>
 </section>
 <!-- <br><br><br> -->
 
-<marquee class="marquee2" style="width: 100%; text-align: center;" scrollamount="10" behavior="" direction="up">SKILL&nbsp;SKILL&nbsp;SKILL&nbsp; </marquee>
+<marquee class="marquee2" style="width: 100%; text-align: center;" scrollamount="15" behavior="" direction="up">SKILL&nbsp;SKILL&nbsp;SKILL&nbsp; </marquee>
 
 <section class=" container skill-sec bg-dark">
     <aside class="skill-aside">
-        <div class="cards card-head">JAVA</div>
-        <div class="cards card-head">JDBC</div>
-        <div class="cards card-head">MySQL</div>
-        <div class="cards card-head">SQL</div>
-        <div class="cards card-head">JavaScript</div>
-        <div class="cards card-head">HTML</div>
-        <div class="cards card-head">CSS</div>
-        <div class="cards card-head">Bootstrap</div>
-        <div class="cards card-head">React</div>
+        <div class="cards card-head text-warning">JAVA &nbsp; <i class="fa-brands fa-java text-light"></i></div>
+        <div class="cards card-head text-warning">JDBC &nbsp; <i class="fa-brands fa-java text-light"></i></div>
+        <div class="cards card-head text-warning">MySQL &nbsp; <i class="fa-solid fa-database text-light"></i></div>
+        <div class="cards card-head text-warning">SQL &nbsp; <i class="fa-solid fa-database text-light"></i></div>
+        <div class="cards card-head text-warning">JavaScript &nbsp; <i class="fa-brands fa-js text-light"></i></div>
+        <div class="cards card-head text-warning">HTML &nbsp; <i class="fa-brands fa-html5 text-light"></i></div>
+        <div class="cards card-head text-warning">CSS &nbsp; <i class="fa-brands fa-css3-alt text-light"></i></div>
+        <div class="cards card-head text-warning">Bootstrap  &nbsp; <i class="fa-brands fa-bootstrap text-light"></i></div>
+        <div class="cards card-head text-warning">React  &nbsp; <i class="fa-brands fa-react text-light"></i></div>
     </aside>
 </section>
 

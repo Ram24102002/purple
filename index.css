@@ -5,7 +5,7 @@ html
 
 body
 {
-    height: 20000px;
+    height: 3800px;
     /* overflow: hidden; */
     overflow-x: hidden;
 }
@@ -112,7 +112,7 @@ input
 {
     position: absolute;
     height: 200px;
-    width: 250px;
+    width: 400px;
 }
 
 .name:hover, .developer:hover,.intro :hover
@@ -221,9 +221,17 @@ marquee
 {
     margin: 20px 70px 20px 70px;
     height: 100px;
-    width: 250px;
+    width: 280px;
     background-color: rgb(95, 24, 139);
     border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: "Catamaran", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-size: 2.5rem;
 }
 
 
@@ -231,6 +239,11 @@ marquee
 .cards:hover
 {
     transform:translateY(-20px)
+}
+
+.fa-brands
+{
+    margin-top: -10px;
 }
 
 
@@ -304,6 +317,11 @@ marquee
         font-size: 2.5rem;
 
     }
+    .intro
+    {
+        font-size: 14px;
+        width: 250px;
+    }
 
 
 
@@ -338,9 +356,8 @@ marquee
     margin: 8px 20px 8px 20px;
     height: 100px;
     width: 110px;
-    /* display: flex;
-    justify-content: center;
-    text-align: center; */
+    font-size: 1.4rem;
+    padding: 10px;
 }
     
 }
