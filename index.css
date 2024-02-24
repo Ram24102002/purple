@@ -5,7 +5,7 @@ html
 
 body
 {
-    height: 3800px;
+    height: 4010px;
     /* overflow: hidden; */
     overflow-x: hidden;
 }
@@ -246,7 +246,89 @@ marquee
     margin-top: -10px;
 }
 
+.quote
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
 
+.feedback
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: url(https://i.pinimg.com/originals/1d/73/5a/1d735ad8eee8350adc96d50e1421ee6d.gif);
+    object-fit: contain;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+    border-radius: 20px;
+}
+.feed-quote
+{
+
+}
+
+.feed-bar
+{
+    text-align: center;
+}
+
+/* footer
+{
+    height: 500px;
+    width: 100%;
+    background-color: ;
+    background: linear-gradient(rgb(248,249,250), rgb(213, 156, 213));
+ 
+
+} */
+
+
+
+
+.sociallinks 
+{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.soheading
+{
+    height: 75px;
+    width: 100%;
+    color: rgb(95, 24, 139);
+
+}
+
+.solicard
+{
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.socards
+{
+    width: 200px;
+    margin: 10px ;
+    background-color: rgb(95, 24, 139);
+}
+
+
+
+#socardscs
+{
+    width: 500px;
+    margin: 10px ;
+}
 
 
 
@@ -254,6 +336,13 @@ marquee
 
 @media all and (max-width:650px)
 {
+
+    body
+    {
+        height: 3600px;
+    }
+
+
     /* nav */
 
     nav
@@ -359,5 +448,84 @@ marquee
     font-size: 1.2rem;
     padding: 10px;
 }
+
+.quote
+{
+    text-align: center;
+    font-size: 2rem;
+    margin: 20px;
+}
+.feedback
+{
+    text-align: center;
+    padding: 50px;
+}
     
+
+.sociallinks
+{
+    flex-direction: column;
+    
+
+}
+
+.linkss
+{
+    display: flex;
+    
+}
+.solicard
+{
+    flex-direction: ;
+    margin-top: 40px;
+    
+}
+#socardscs
+{
+    margin: 10px ;
+    
+}
+
+.socards
+{
+    width: 170px;
+    height:75px;
+}
+#socardscs
+{
+    width: 170px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+@media all and (min-width:1200px)
+{
+    #socardscs
+    {
+        width: 420px;
+        
+        margin: 10px ;
+    
+    }
+
+
+    
+}
+
+
+/* footer */
+
+footer
+{
+    height: 635px;
+    background-image: url(footer.jpg);
+    background-repeat:
 }
