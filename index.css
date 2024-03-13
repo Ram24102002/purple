@@ -42,7 +42,7 @@ input
 
 .in-bar, .in-btn
 {
-    color: background-color: rgb(154,31,233);
+    /* color: rgb(154,31,233); */
     border: 2px rgb(154,31,233) ;  
 }
 .in-btn:hover
@@ -121,6 +121,43 @@ input
 }
 
 
+/* chatbot */
+
+.chatbot
+{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 220px;
+    /* position: relative; */
+}
+.cbicon
+{
+    height: 55px;
+    width: 55px;
+    border-radius: 10px;
+    margin-right: -20px;
+    background-color: rgb(183, 88, 200);
+    position: fixed;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+.bot-box
+{
+    height: 200px;
+    border-color: rgb(235, 15, 15) bold 10px;
+}
+.bot-bar
+{
+    margin: 0;
+
+}
+
 
 /* hello world */
 /* ======== */
@@ -189,13 +226,17 @@ marquee
 
 .technical
 {
-    
+    transition: 1s;
 }
 .technical:hover
 {
 
     transform:translateX(-300px) ;
     transition: all .5s ease-out;
+}
+.skill
+{
+    transition: 1s;
 }
 .skill:hover
 {
@@ -253,6 +294,87 @@ marquee
     align-items: center;
     font-size: 3rem;
 }
+
+
+
+
+
+/* codebox */
+
+.codebox
+{
+    height: 300px;
+    width: 100%;
+}
+
+
+.card
+{
+    
+    background-color: rgb(31,34,38);
+}
+
+#helloworld
+{
+    overflow: hidden;
+    border-right: .1em solid orange;
+    white-space: nowrap;
+    font-size: 1.5rem;
+    width: 200px;
+    animation: typing 50s forwards;
+}
+
+
+/* .container{
+    display: inline-block;
+    font-family: "arial";
+    font-size: 24px;
+  }
+   */
+  
+
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+
+  .eatsec
+  {
+    margin-top: 200px;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .eat
+  {
+    height: 500px;
+    width: 80%; 
+  }
+
+  .eatsec > .eat
+  {
+    scale: .8; opacity: 0;
+    animation: fade-in linear forwards;
+    /* animation: fade-out linear backwards; */
+    animation-timeline: view();
+    /* animation-range: start 100px */
+    /* animation-range: end 100px; */
+    animation-range:  50px 600px;
+    /* animation-range-end: contain; */
+  }
+  
+  @keyframes fade-in {
+      /* from{scale: .8;opacity: 0;} */
+      to{scale: 1; opacity: 1;}
+  } 
+
+
+
+
 
 .feedback
 {
@@ -354,7 +476,7 @@ marquee
         font-size: 1rem;
     }
 
-
+    
     form
     {
         align-items: center;
@@ -384,7 +506,7 @@ marquee
     {
         font-size: 6rem;
         margin-left: -10px;
-        margin-top: 0;
+        margin-top: 200px;
     }
     .po-cont
     {
@@ -412,6 +534,10 @@ marquee
         width: 250px;
     }
 
+    .cbicon
+    {
+        margin-right: 0;
+    }
 
 
 
@@ -476,7 +602,7 @@ marquee
 }
 .solicard
 {
-    flex-direction: ;
+    /* flex-direction: ; */
     margin-top: 40px;
     
 }
@@ -517,6 +643,7 @@ marquee
     }
 
 
+
     
 }
 
@@ -526,6 +653,7 @@ marquee
 footer
 {
     height: 635px;
-    background-image: url(footer.jpg);
-    background-repeat:
+    /* background-image: url(footer.jpg); */
+    background: linear-gradient(black,rgb(83,69,130));
+    /* background-repeat: */
 }
