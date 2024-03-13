@@ -68,11 +68,15 @@
                             <li class="dropdown-item">GitHub</li>
                         </ul>
                     </li>
+                    <li class="nav-item">
+                      <a  class="nav-link active" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" id="setting"  href=""><i class="fa-solid fa-gear"></i></a>
+                    </li>
 
                 </ul>
 
                 
             </div>
+
             <!-- search -->
             <form class="feedback-form my-2 my-lg-0"  action="https://api.web3forms.com/submit" method="POST"  style="display: inline-flex;">
             <input type="hidden" name="access_key" value="a0d2d77e-4066-4be9-a363-e9c612a7864a">
@@ -81,6 +85,48 @@
             
         </div>
     </nav>
+
+
+
+
+    <!-- Settings Canvas -->
+
+    <div class="offcanvas offcanvas-end bg-light text-warning" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasRightLabel">Settings</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+
+
+        <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+          <label class="form-check-label text-dark" for="flexSwitchCheckDefault">Dark Mode <span class="badge bg-warning">Beta</span></label>
+        </div>
+
+
+        <!-- checked -->
+
+        <!-- <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+          <label class="form-check-label" for="flexSwitchCheckChecked">Dark Mode <span class="badge bg-warning">Beta</span></label></label>
+        </div> -->
+       
+  <hr class="text-dark">
+  
+  <a href="https://github.com/Ram24102002?tab=repositories"><h6>Repositories</h6></a>      
+  <!-- <a href="https://ram24102002.github.io/livewebsiteabout/#carousel"><h6>Gallery</h6></a> -->
+  <!-- <a href="" class=" active" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions" id="help" ><h6>Support</h6></a> -->
+            
+  
+        
+        
+        
+      </div>
+    </div>
+
+
+
         
 
     <!-- main front page -->
@@ -259,7 +305,7 @@ System.out.println("Hello World")
           </div>
         </div></a>
         <a class="an" href="https://www.linkedin.com/in/ramachandran24-asokan/  "><div class="card border-dark mb-3 socards" >
-          <div class="card-body text-primary">
+          <div class="card-body lg-6 text-primary">
             <h5 class="card-title">Linked In <i class="fa-brands fa-linkedin"></i></h5>
           </div>
         </div></a>
