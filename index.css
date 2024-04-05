@@ -135,40 +135,31 @@ input
 
 /* chatbot */
 
-.chatbot
+.chat-body
 {
-    height: 100px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    margin-top: 220px;
-    /* position: relative; */
+    position: absolute;
+    bottom: 0;
+    padding: 50px;
+    font-family: "Anta", sans-serif;
 }
-.cbicon
-{
-    height: 55px;
-    width: 55px;
-    border-radius: 10px;
-    margin-right: -20px;
-    background-color: rgb(183, 88, 200);
-    position: fixed;
-    font-size: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-}
-.bot-box
-{
-    height: 200px;
-    border-color: rgb(235, 15, 15) bold 10px;
-}
-.bot-bar
-{
-    margin: 0;
 
+#user-input
+{
+    width: 200px;
+    border: none;
+    height: 38px;
+    border-radius: 10px;
 }
+
+.bot-send-btn
+{
+    margin-top: -3px;
+    background-color: blueviolet;
+    border-color: black;
+}
+
+
+
 
 
 /* hello world */
