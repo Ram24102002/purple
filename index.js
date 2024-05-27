@@ -11,7 +11,7 @@ const responses = {
   "education": "BCA",
   "i love you":"Love You to Baby ♥",
   "how are you": "I'm doing well, I think you too..",
-  "what is your name": "Eva",
+  "what is your name": "Ram",
   "bye": "Goodbye! Have a great day!"
 };
 
